@@ -1,3 +1,161 @@
 // Place all the styles related to the messages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+@import "./color";
+
+.main {
+    height: calc(100vh - 80px);  // vhは「viewport height」の略で、viewport の高さ（ブラウザの高さ）に対する指定です。100vhで表示しているスマホやPCのウィンドウサイズの100%という意味になります 
+    .chat {
+        padding: 0 20px;
+        height: calc(100vh - 160px);
+        background-color: $back-color;
+
+        
+        .submain {
+            max-height: calc(100vh - 170px);
+            overflow-y: auto;
+            padding: 20px;
+            background-color: $back-color;
+    
+            .hello {
+                padding: 20px;
+                height: 200px;
+                background-color: white;
+                display: flex;
+                border-radius: 5px;
+        
+            
+        
+                .hehello {
+                    padding: 5px;
+                    background-color: white;
+                    width: 60%;
+                    margin-right: 2em;
+
+
+            
+                    .yuza {
+
+                        height: 30px;
+                        padding: 5px;
+                        background-color: white;
+                        margin-right: 2em;
+                        font-weight: bold;
+                        
+                
+                        .nichiji {
+                            height:30px;
+                            background-color: white;
+
+                            
+                    
+                            
+                            
+                        }
+                        
+                    }
+                    .honbun {
+                        height: 110px;
+                        padding: 20px;
+                        background-color: white;
+                
+                        
+                        
+                    } 
+                }
+                .hehehello {
+                    padding: 5px;
+                    background-color: white;
+                    width: 30%;
+            
+                    .one {
+
+                        height: 170px;
+                        padding: 10px;
+                    
+                        background-color: white;
+                
+                        .two {
+                            padding: 20px;
+                            height: 60px;
+                            background-color: skyblue;
+                            border-radius: 5px;
+                            margin-bottom: 20px;
+                    
+                            .san {
+                                padding: 20px;
+                                height: 15px;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                color: maroon;
+                                
+                        
+                                
+                                
+                            }
+                            
+                        }
+                        .ttwo {
+                            padding: 20px;
+                        
+                            background-color: skyblue;
+                            height: 60px;
+                            border-radius: 5px;
+                    
+                            .sasan {
+                                padding: 20px;
+                                height: 15px;
+                                color: maroon;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                            
+                        
+                                                            
+                            }
+                            
+                        }
+                    }
+                    
+                } 
+            }
+            
+        }
+    }
+    
+
+    
+    .chat-form {
+        height: 80px;
+        padding: 15px;
+        background-color: $sub-color;
+
+        .gohan {
+            height: 60px;
+
+    
+            .text {
+                padding: 10px;
+                height: 50px;
+                width: 70%;
+                border-radius: 5px;
+                margin-right: 10em;
+                background-color: $back-color;
+    
+                
+            }
+            .send {
+                padding: 10px;
+                height: 40px;
+                width: 10%;
+                border-radius: 5px;
+                background-color: $main-color;
+                color: white;
+        
+                
+            }
+        }
+
+    }
+}
